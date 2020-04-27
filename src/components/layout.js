@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import GlobalStyles from "./styled/GlobalStyles";
 
 import Header from "./global/header";
-import Footer from "./global/Footer";
+import Footer from "./global/footer";
 import { MainContainer } from "./styled/containers";
 
 const Layout = ({ children }) => {
