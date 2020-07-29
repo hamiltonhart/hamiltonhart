@@ -11,9 +11,9 @@ const NavStyle = styled.nav`
 export const NavItem = styled(Link)`
   font-size: 1.5em;
   padding: 0.5em;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
   &:hover {
-    border: 1px solid var(--secondary-light);
+    background-color: var(--secondary-light);
   }
 `;
 
